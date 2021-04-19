@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Nikolai Madlener} \\ \vspace{1pt}
+    \small Bothmerstraße 19, 80634 München\\ 
+    \small +436802216544 $|$ {{nikolai.madlener@tum.de}}
+    % \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
+    % \href{https://github.com/...}{\underline{github.com/NikolaiMadlener}}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Ausbildung}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technische Universität München}{Okt. 2017 -- April 2021}
+      {Bachelor of Science in Informatik}{München, Deutschland}
+    \resumeSubheading
+      {Höhere Technische Lehranstalt Rankweil}{Sept. 2011 -- Juni 2016}
+      {Fachbereich Bautechnik mit Vertiefung Heizung-Lüftung}{Rankweil, Österreich}
+      \resumeItemListStart
+      \resumeItem{Mit Auszeichnung abgeschlossen}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Sport-Mittelschule Satteins}{Sept. 2007 -- Juli 2011}
+      {}{Satteins, Österreich}
+    \resumeSubheading
+      {Volksschule Satteins}{Sept. 2003 -- Juli 2007}
+      {}{Satteins, Österreich}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Berufliche Erfahrung \& Praktika}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software-Engineer (Teilzeit)}{Mai 2017 -- heute}
+      {ALEAS AG}{Ruggel, Liechtenstein}
+      \resumeItemListStart
+        \resumeItem{Full-Stack Entwicklung von Web-Anwendungen mit ASP.NET und Microsoft SQL Server}
+        \resumeItem{Umgesetzte Projekte u. a. ALEAS Portal (\underline{portal.aleas.li}), Software-Lizenzanager}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Logistik Software System Konfiguration (Praktikum)}{März 2021 -- April 2021}
+      {Tesla}{Grünheide, Deutschland}
+      \resumeItemListStart
+        \resumeItem{Materialfluss Software System Konfiguration für die Giga Factory in Grünheide}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {iOS-Entwickler (Praktikum)}{Okt. 2019 -- Feb. 2020}
+      {TUM/Carl Zeiss Meditec AG}{München, Deutschland}
+      \resumeItemListStart
+        \resumeItem{Enwicklung einer nativen iOS-App in einem agilen Team}
+        \resumeItem{Im Zuge des Bachelor Praktikums (iPraktikum/Lehrstuhl für Angewandte Softwaretechnik)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Praktikant}{Juli 2016 -- Aug. 2016}
+      {HPA AG}{St. Margrethen, Schweiz}
+    \resumeSubheading
+      {Praktikant}{Juli 2015 -- Aug. 2015}
+      {Innotech TGA GmbH}{Altach, Österreich}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projekte \& Expertise}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{encore.} $|$ \emph{Swift, SwiftUI, Spotify API, REST, Git}}{Mai 2020 -- heute}
+          \resumeItemListStart
+            \resumeItem{Entwicklung einer nativen iOS-App mit SwiftUI für geteilte Echtzeit Musik-Warteschlangen}
+            \resumeItem{Integration von Spotify implementiert mithilfe der Spotify API}
+            \resumeItem{Anbindung an bestehenden Server mit der REST API}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Swift Tutor} }{April 2020}
+          \resumeItemListStart
+            \resumeItem{Als Tutor beim iPraktikum Bootcamp Studierende beim Einstieg in die iOS-Entwicklung unterstützt (TUM/Lehrstuhl für Angewandte Softwaretechnik)}
+            \resumeItem{Vermittelte Inhalte u. a. Swift, SwiftUI, UIKit, Server-Side Swift, UML}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------ZIVI-----------
+\section{Zivildienst}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Zivildiener als Rettungssanitäter}{Sept. 2016 -- Mai 2017}
+      {Österreichisches Rotes Kreuz}{Feldkirch, Österreich}
+
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Kentnisse \& Interessen}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Fremdsprachen}{: Englisch (Sprachreferenzniveau B2)} \\
+     \textbf{Programmiersprachen}{: Swift, C\#, Java, Python, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: SwiftUI, ASP.NET, Vue.js} \\
+    %  \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Interessen}{: Laufen, Wandern, Skitouren, Software-Entwicklung, maschinelles Lernen, iOS}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
