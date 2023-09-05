@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{fontawesome}
 \input{glyphtounicode}
 
 
@@ -112,12 +113,12 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Nikolai Madlener} \\ \vspace{1pt}
-    \small Bothmerstraße 19, 80634 München\\ 
-    \small +436802216544 $|$ {{nikolai.madlener@tum.de}}
-    % \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    % \href{https://github.com/...}{\underline{github.com/NikolaiMadlener}}
-    
+  \textbf{\Huge \scshape Nikolai Madlener} \\ \vspace{1pt}
+  % \small Bothmerstr. 19, 80634 Munich\\ 
+  \href{https://www.linkedin.com/in/nikolai-madlener-163b14169/}{\faLinkedinSquare} $|$
+  \small +43 680 2216544 $|$ {{nikolai.madlener@tum.de}} $|$
+  \href{https://github.com/NikolaiMadlener}{\faGithub}
+  
 \end{center}
 
 
@@ -125,7 +126,7 @@
 \section{Ausbildung}  
 \resumeSubHeadingListStart
   \resumeSubheading
-      {Technische Universität München}{Okt. 2021 -- Juli 2024 (voraussichtlicher Abschluss)}
+      {Technische Universität München}{Oktober 2021 -- Juli 2024 (voraussichtlicher Abschluss)}
       {Master of Science in Informatik}{München, Deutschland}
       \resumeItemListStart
         \resumeItem{Fokus auf Software Engineering, Machine Learning und Distributed Systems}
@@ -138,14 +139,14 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Technische Universität München}{Okt. 2017 -- April 2021}
+      {Technische Universität München}{Oktober 2017 -- April 2021}
       {Bachelor of Science in Informatik}{München, Deutschland}
-    % \resumeSubheading
-    %   {Höhere Technische Lehranstalt Rankweil}{Sept. 2011 -- Juni 2016}
-    %   {Fachbereich Bautechnik mit Vertiefung Heizung-Lüftung}{Rankweil, Österreich}
-    %   \resumeItemListStart
-    %   \resumeItem{Mit Auszeichnung abgeschlossen}
-    %   \resumeItemListEnd
+    \resumeSubheading
+      {Höhere Technische Lehranstalt Rankweil}{September 2011 -- Juni 2016}
+      {Fachbereich Bautechnik mit Vertiefung Heizung-Lüftung}{Rankweil, Österreich}
+      \resumeItemListStart
+      \resumeItem{Mit Auszeichnung abgeschlossen}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -154,26 +155,28 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software-Engineer (Teilzeit)}{Mai 2017 -- heute}
+      {Software-Engineer (Teilzeit)}{Juli 2019 -- heute}
       {ALEAS AG}{Ruggel, Liechtenstein}
       \resumeItemListStart
+        \resumeItem{Teilzeit Werkstudenten Tätigekeiten während des Studiums, v.A während der Semesterferien}
         \resumeItem{Full-Stack Entwicklung von Web-Anwendungen mit ASP.NET und Microsoft SQL Server}
-        \resumeItem{Umgesetzte Projekte u. a. ALEAS Portal (\underline{portal.aleas.li}), Software-Lizenzanager}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Technische Universität München, Digital Health Group}{Oktober 2021 -- März 2023}
-      {Software Engineer (als Wissenschaftliche Hilfskraft)}{Munich, Germany}
+      {Wissenschaftliche Hilfskraft}{Oktober 2021 -- März 2023}
+      {Technische Universität München, Digital Health Group}{Munich, Germany}
       \resumeItemListStart
-        \resumeItem{Entwicklung einer \href{https://github.com/dhg-applab/HeMo}{Navigations iOS app} die Nutzern hilft ihre Gesundheit und Fitness zu verbessern}
-        \resumeItem{Verbesserung der Performance der Rutensuche um mehr als 50\%}
+        \resumeItem{Entwicklung einer \href{https://github.com/dhg-applab/HeMo}{Navigations iOS App} die Nutzern hilft ihre Gesundheit und Fitness zu verbessern}
+        % \resumeItem{Verbesserung der Performance der Rutensuche um mehr als 50\%}
       \resumeItemListEnd
 
     \resumeSubheading
       {Logistik Software System Konfiguration (Praktikum)}{März 2021 -- April 2021}
-      {Tesla}{Grünheide, Deutschland}
+      {Tesla Inc.}{Grünheide, Deutschland}
       \resumeItemListStart
-        \resumeItem{Materialfluss Software System Konfiguration für die Giga Factory in Grünheide}
+     
+        \resumeItem{Erstkonfiguration des Materialflusssoftwaresystems für die Intralogistik im Werk Tesla Giga Berlin}
+        \resumeItem{Requirements Engineering und Architekturkonzeption im Austausch mit Entwicklern und Materialflussplanern}
       \resumeItemListEnd
 
     % \resumeSubheading
@@ -187,60 +190,73 @@
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------
-\section{Projekte \& Expertise}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{encore.} $|$ \emph{Swift, SwiftUI, Spotify API, REST, Git}}{Mai 2020 -- heute}
-          \resumeItemListStart
-            \resumeItem{Entwicklung einer nativen iOS-App mit SwiftUI für geteilte Echtzeit Musik-Warteschlangen}
-            \resumeItem{Integration von Spotify implementiert mithilfe der Spotify API}
-            \resumeItem{Anbindung an bestehenden Server mit der REST API}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Swift Tutor} }{April 2020}
-          \resumeItemListStart
-            \resumeItem{Als Tutor beim iPraktikum Bootcamp Studierende beim Einstieg in die iOS-Entwicklung unterstützt (TUM/Lehrstuhl für Angewandte Softwaretechnik)}
-            \resumeItem{Vermittelte Inhalte u. a. Swift, SwiftUI, UIKit, Server-Side Swift, UML}
-          \resumeItemListEnd
+% %-----------PROJECTS-----------
+% \section{Projekte \& Expertise}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{encore.} $|$ \emph{Swift, SwiftUI, Spotify API, REST, Git}}{Mai 2020 -- heute}
+%           \resumeItemListStart
+%             \resumeItem{Entwicklung einer nativen iOS-App mit SwiftUI für geteilte Echtzeit Musik-Warteschlangen}
+%             \resumeItem{Integration von Spotify implementiert mithilfe der Spotify API}
+%             \resumeItem{Anbindung an bestehenden Server mit der REST API}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Swift Tutor} }{April 2020}
+%           \resumeItemListStart
+%             \resumeItem{Als Tutor beim iPraktikum Bootcamp Studierende beim Einstieg in die iOS-Entwicklung unterstützt (TUM/Lehrstuhl für Angewandte Softwaretechnik)}
+%             \resumeItem{Vermittelte Inhalte u. a. Swift, SwiftUI, UIKit, Server-Side Swift, UML}
+%           \resumeItemListEnd
 
-    \resumeSubHeadingListEnd
+%     \resumeSubHeadingListEnd
 
 %-----------EXTRACURRICULAR-----------
-\section{Ausßerstudliche Erfahrung \& Ehrenamt}
+\section{Außercurriculare Tätigkeiten \& Ehrenamt}
 \resumeSubHeadingListStart
+\resumeProjectHeading
+    {\textbf{MINGA Mentor} }{August 2022 -- Februar 2023}
+    \resumeItemListStart
+      \resumeItem{Mentor für Austauschstudierende um jene bei der Orientierung in München und an der TUM zu unterstützen}
+    \resumeItemListEnd
 \resumeProjectHeading
   {\textbf{Ferienakademie 2022 -- ”Decentralized Decision Making"}}{September 2022}
   \resumeItemListStart
-    \resumeItem{Teilnahme bei der \href{https://ase.in.tum.de/lehrstuhl_1/projects/1193-ferienakademie-2022}{Ferienakademie} in kooperation mit Siemens für ausgewählte Studenten mit dem Ziel innovative Ideen zu erforschen}
-    \resumeItem{Entwicklung eines selbst-organisierenden Roboter Lieferdiesnt systems mit Fokus auf dezentralisierte Entscheidungsfindung}
-    % \resumeItem{Built an iOS app that viisualizes the robots' status/location in realtime using a message-ortiented architecture}
-  \resumeItemListEnd
-  \resumeProjectHeading
-  {\textbf{HackaTUM 2022 Gesamtsieger}}{November 2022}
-  \resumeItemListStart
-    \resumeItem{Gesamtsieger (aus über 200 Teams und mehr als 800 Teilnehmer) des \href{https://devpost.com/software/sixtcharge}{HackaTUM 2022}, einer der größten Hackathons Europas}
+    \resumeItem{Als ausgewählter Student bei der \href{https://ase.in.tum.de/lehrstuhl_1/projects/1193-ferienakademie-2022}{Ferienakademie} teilgenommen mit dem Ziel innovative Ideen zu erforschen}
+    \resumeItem{Entwicklung eines selbst-organisiertem Roboter Lieferdienst mit Fokus auf dezentralisierte Entscheidungsfindung}
     % \resumeItem{Built an iOS app that viisualizes the robots' status/location in realtime using a message-ortiented architecture}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
-%-----------ZIVI-----------
-% \section{Zivildienst}
-%   \resumeSubHeadingListStart
-%     \resumeSubheading
-%       {Zivildiener als Rettungssanitäter}{Sept. 2016 -- Mai 2017}
-%       {Österreichisches Rotes Kreuz}{Feldkirch, Österreich}
+%-----------AWARDS-----------
+\section{Auszeichnungen}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{HackaTUM 2022 Gesamtsieger}}{November 2022}
+  \resumeItemListStart
+    \resumeItem{Gesamtsieger (aus über 200 Teams und mehr als 800 Teilnehmer) des \href{https://devpost.com/software/sixtcharge}{HackaTUM 2022}, einer der größten Hackathons Europas}
+    % \resumeItem{Built an iOS app that viisualizes the robots' status/location in realtime using a message-ortiented architecture}
+  \resumeItemListEnd
+  \resumeProjectHeading
+  {\textbf{Bosch Technik fürs Leben Preis}}{Juni 2016}
+  \resumeItemListStart
+    \resumeItem{Nominiert als eine der besten 5 Matura Arbeiten Österreichs im Bereich Gebäudetechnik}
+    % \resumeItem{Built an iOS app that viisualizes the robots' status/location in realtime using a message-ortiented architecture}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-%   \resumeSubHeadingListEnd
+%-----------ZIVI-----------
+\section{Zivildienst}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Zivildiener als Rettungssanitäter}{September 2016 -- Mai 2017}
+      {Österreichisches Rotes Kreuz}{Feldkirch, Österreich}
+  \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Kentnisse \& Interessen}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      \textbf{Fremdsprachen}{: Englisch (Sprachreferenzniveau B2)} \\
-     \textbf{Programmiersprachen}{: Swift, C\#, Java, Python, SQL, HTML/CSS} \\
-     \textbf{Frameworks}{: SwiftUI, ASP.NET, Vue.js} \\
+      \textbf{Fremdsprachen}{: Englisch (Sprachreferenzniveau B2), Chinesisch (HSK1)} \\
     %  \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
      \textbf{Interessen}{: Laufen, Wandern, Skitouren, Software-Entwicklung, maschinelles Lernen, iOS}
     }}
