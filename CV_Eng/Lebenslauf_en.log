@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.25)  25 MAY 2024 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.25)  1 OCT 2024 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,21 +314,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Lebenslauf_en.out' has not changed.
-(rerunfilecheck)             Checksum: 36A7AF36C8CEEBA643A02F1527292888;646.
+(rerunfilecheck)             Checksum: 4C74DD84592BB8880FFA5A435211FAA9;563.
  ) 
 Here is how much of TeX's memory you used:
- 11884 strings out of 476025
- 187583 string characters out of 5790016
- 1885388 words of memory out of 5000000
- 32189 multiletter control sequences out of 15000+600000
+ 11882 strings out of 476025
+ 187563 string characters out of 5790016
+ 1884388 words of memory out of 5000000
+ 32188 multiletter control sequences out of 15000+600000
  518511 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,343b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,304b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Lebenslauf_en.pdf (1 page, 134248 bytes).
+Output written on Lebenslauf_en.pdf (1 page, 132953 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
